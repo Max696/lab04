@@ -10,8 +10,9 @@ namespace Lab04.DBContext
     {
         private static volatile DefaultConnection Instance;
         private static object syncRoot = new Object();
-        public Dictionary<string, Album> Album = new Dictionary<string,Album>();
+        public Dictionary<string, Album<int>> Album = new Dictionary<string,Album<int>>();
         public Dictionary<Calcomania, bool> repetidaFaltante = new Dictionary<Calcomania, bool>();
+        public List<Calcomania> Faltantes = new List<Calcomania>();
 
         public int IDActual { get; set; }
 

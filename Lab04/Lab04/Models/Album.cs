@@ -5,11 +5,11 @@ using System.Web;
 
 namespace Lab04.Models
 {
-    public class Album
+    public class Album<T>
     {
        // public string nombre { get; set; }
-        public List<int> faltantes = new List<int>();
-        public List<int> coleccionadas = new List<int>();
-        public List<int> cambios = new List<int>();
+        public List<T> faltantes = new List<T>();
+        public List<T> coleccionadas = new List<T>();
+        public List<T> cambios = new List<T>();
     }
 }

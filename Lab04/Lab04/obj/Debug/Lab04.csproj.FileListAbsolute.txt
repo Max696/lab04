@@ -47,6 +47,5 @@ D:\lab04\Lab04\Lab04\bin\System.Web.WebPages.Deployment.xml
 D:\lab04\Lab04\Lab04\bin\System.Web.WebPages.Razor.xml
 D:\lab04\Lab04\Lab04\bin\Antlr3.Runtime.pdb
 D:\lab04\Lab04\Lab04\bin\Newtonsoft.Json.xml
-D:\lab04\Lab04\Lab04\obj\Debug\Lab04.csprojResolveAssemblyReference.cache
 D:\lab04\Lab04\Lab04\obj\Debug\Lab04.dll
 D:\lab04\Lab04\Lab04\obj\Debug\Lab04.pdb
