@@ -13,6 +13,8 @@ namespace Lab04.DBContext
         public Dictionary<string, Album<int>> Album = new Dictionary<string,Album<int>>();
         public Dictionary<Calcomania, bool> repetidaFaltante = new Dictionary<Calcomania, bool>();
         public List<Calcomania> Faltantes = new List<Calcomania>();
+        public List<Calcomania> Agregadas = new List<Calcomania>();
+        public List<Calcomania> Cambios = new List<Calcomania>();
 
         public int IDActual { get; set; }
 
