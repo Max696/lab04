@@ -1,0 +1,26 @@
+﻿@model Lab04.Models.Calcomania
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+<body>
+    @using (Html.BeginForm("Create", "Calcomania", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div>
+            JSON file <input type="file" name="jsonFile" />
+            <br />
+            <input type="submit" value="Import" />
+        </div>
+    }
+</body>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
