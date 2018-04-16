@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Lab04.Models.Calcomania>
+
+@{
+    ViewBag.Title = "Repetidas";
+}
+
+<h2>Repetidas</h2>
+
+<p>
+    @Html.ActionLink("Back to index", "Index")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.existe)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.existe)
+        </td>
+        <td>
+           
+        </td>
+    </tr>
+}
+
+</table>
