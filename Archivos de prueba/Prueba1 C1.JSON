@@ -1,0 +1,34 @@
+{
+    "Pais1": {
+        "faltantes": [ 1, 2, 3 ],
+        "coleccionadas": [ 11, 12, 13, 14 ],
+        "cambios": [ 11, 18, 21 ]
+    },
+    "Pais2": {
+        "faltantes": [ 101, 102, 103 ],
+        "coleccionadas": [ 111, 112, 113, 114 ],
+        "cambios": [ 111, 118, 121 ]
+    },
+    "Pais3": {
+        "faltantes": [ 101, 102, 103 ],
+        "coleccionadas": [ 111, 112, 113, 114 ],
+        "cambios": [ 111, 118, 121 ]
+    },
+    "Pais4": {
+        "faltantes": [ 78,89,65,123],
+        "coleccionadas": [ 78,56, 113, 114 ],
+        "cambios": [ 111, 118, 121 ]
+    },
+    "Pais5": {
+        "faltantes": [ 456,85,36 ],
+        "coleccionadas": [ 45,78,69 ],
+        "cambios": [ 111, 118, 121 ]
+    },
+    "Pais6": {
+        "faltantes": [ 101, 102, 103 ],
+        "coleccionadas": [ 111, 112, 113, 114 ],
+        "cambios": [ 111, 118, 121 ]
+    }
+
+
+}
